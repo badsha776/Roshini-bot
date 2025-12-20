@@ -28,14 +28,14 @@ module.exports.run = async function ({ api, event, args }) {
     // Toggle auto-reply ON
     if (userMessage.toLowerCase() === "on") {
         autoReplyEnabled[senderID] = true;
-        return api.sendMessage("Hyee baby! 😘Raj thakur ne mujhe chalu kar diya ❤️😀❤️", threadID, messageID);
+        return api.sendMessage("Hyee baby! 😘 Rishi ne mujhe chalu kar diya ❤️😀❤️", threadID, messageID);
     }
 
     // Toggle auto-reply OFF
     if (userMessage.toLowerCase() === "off") {
         autoReplyEnabled[senderID] = false;
         chatHistories[senderID] = [];
-        return api.sendMessage("Hmm! 😒Raj thakur ne mujhe off kar diya 🥺", threadID, messageID);
+        return api.sendMessage("Hmm! 😒Rishi ne mujhe off kar diya 🥺", threadID, messageID);
     }
 
     // If auto-reply is OFF and message doesn't start with name, ignore
