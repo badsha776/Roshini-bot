@@ -70,18 +70,18 @@ const time = process.uptime(),
      let pathIcon = __dirname + `/tad/avatar_3ds23c12311.png`;
     let pathIconIG = __dirname + `/tad/sssss.png`;
     let pathIcongithub = __dirname + `/tad/owo.png`;
-    let icon3 = (await axios.get(encodeURI(`https://imgur.com/u8UU1cb.png`), { responseType: "arraybuffer" })).data;
+    let icon3 = (await axios.get(encodeURI(`https://i.imgur.com/5Ixfyvb.jpeg`), { responseType: "arraybuffer" })).data;
     fs.writeFileSync(pathIcongithub, Buffer.from(icon3, "utf-8"));
-     let icon = (await axios.get(encodeURI(`https://imgur.com/TEAVHvA.png`), { responseType: "arraybuffer" })).data;
+     let icon = (await axios.get(encodeURI(`https://i.imgur.com/5Ixfyvb.jpeg`), { responseType: "arraybuffer" })).data;
     fs.writeFileSync(pathIcon, Buffer.from(icon, "utf-8"));
-    let icon2 = (await axios.get(encodeURI(`https://imgur.com/pJnSU7m.png`), { responseType: "arraybuffer" })).data;
+    let icon2 = (await axios.get(encodeURI(`https://i.imgur.com/5Ixfyvb.jpeg`), { responseType: "arraybuffer" })).data;
     fs.writeFileSync(pathIconIG, Buffer.from(icon2, "utf-8"));
     let avtAnime = (
       await axios.get(encodeURI(`${lengthchar[id].imgAnime}`), { responseType: "arraybuffer" })).data;
     fs.writeFileSync(pathAva, Buffer.from(avtAnime, "utf-8"));
-         let background = (await axios.get(encodeURI(`https://imgur.com/1QncZxH.png`), { responseType: "arraybuffer" })).data;
+         let background = (await axios.get(encodeURI(`https://i.imgur.com/5Ixfyvb.jpeg`), { responseType: "arraybuffer" })).data;
     fs.writeFileSync(pathImg, Buffer.from(background, "utf-8"));
- let line = (await axios.get(encodeURI(`https://imgur.com/1iWNkmi.png`), { responseType: "arraybuffer" })).data;
+ let line = (await axios.get(encodeURI(`https://i.imgur.com/5Ixfyvb.jpeg`), { responseType: "arraybuffer" })).data;
     fs.writeFileSync(pathLine, Buffer.from(line, "utf-8"));
     const request = require('request');
     const path = require('path');
