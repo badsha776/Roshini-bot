@@ -12,9 +12,9 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("Julmi jaat")==0 || event.body.indexOf("जुल्मी ")==0 || event.body.indexOf("जुली")==0 || event.body.indexOf("Julmi")==0) {
+	if (event.body.indexOf("rishi")==0 || event.body.indexOf("rishi ")==0 || event.body.indexOf("rishi")==0 || event.body.indexOf("rishi")==0) {
 		var msg = {
-				body: "👋For Any Kind Of Help Contact On Instagram👇👇https://instagram.com/_julmi_jaat__?igshid=OGQ5ZDc2ODk2ZA==😇",
+				body: "👋For Any Kind Of Help Contact On Instagram👇👇https://www.instagram.com/rishikesha28?igsh=MXYyemZ4Y2ZrbzkzbQ====😇",
 				fs.createReadStream(__dirname + )
 			}
 			api.sendMessage(msg, threadID, messageID);
