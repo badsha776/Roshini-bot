@@ -1,13 +1,13 @@
 //@Prem-babu3608
 ////////////////////////////////////////////////////////
-/////// WARNING => JO CREDIT NAME CHANGE KREGA USKA ID BAN KAR DIYA JAYEGA + THIS BOT IS MADE BT PREM BABU
+/////// WARNING => JO CREDIT NAME CHANGE KREGA USKA ID BAN KAR DIYA JAYEGA + THIS BOT IS MADE BT RISHI 
 const fs = require("fs");
 module.exports.config = {
 	name: "Bye",
     version: "1.1.1",
 	hasPermssion: 0,
-	credits: "PREM BABU",  ///////////@prem-babu3608
-	description: "THIS BOT IS ME PREM SHARMA KO",
+	credits: "RISHI",  ///////////@prem-babu3608
+	description: "THIS BOT IS MAKE BY RISHI",
 	commandCategory: "no prefix",
     cooldowns: 5, 
 };
