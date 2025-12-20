@@ -3,7 +3,7 @@ module.exports.config = {
   name: "julmi",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "𝑱𝑼𝑳𝑴𝑰 𝑱𝑨𝑨𝑻",
+  credits: "𝐑𝐈𝐒𝐇𝐈",
   description: "prem bot",
   commandCategory: "Noprefix",
   usages: "noprefix",
